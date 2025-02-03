@@ -1,0 +1,46 @@
+@media(max-width: 1025px) {
+    .img {
+        background-image: url(img/bac1.jpeg);
+        background-position: center;
+        background-size: cover;
+        width: 55%;
+        height: 75vh;
+        border-radius: 100px;
+        box-shadow: inset 5px 5px 20px #fff;
+        margin-top: 60px;
+    }
+
+    .container .img {
+        width: 400px;
+        height: 300px;
+    
+    }
+
+    footer .footer .icon .ic a li i:hover{
+        box-shadow: 0 0 10px var(--w);
+    }
+
+}
+
+@media(min-width: 1025px) {
+    .img {
+        background-image: url(img/bac1.jpeg);
+        background-position: center;
+        background-size: cover;
+        width: 55%;
+        height: 75vh;
+        border-radius: 100px;
+        box-shadow: inset 5px 5px 20px #fff;
+        margin-top: 60px;
+    }
+
+    .container .img {
+        width: 700px;
+        height: 450px;
+    }
+
+    footer .footer .icon .ic a li i:hover{
+        transform: rotate(360deg);
+    }
+
+}

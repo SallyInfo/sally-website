@@ -1,0 +1,149 @@
+/*==== COLOR VARIABLES ====*/
+:root {
+    --bg-color: #dddddd;
+    --white-color: #ffffff;
+    --black-color: #1c1c1c;
+  }
+  
+  /*==== BASE ====*/
+  
+  body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url(https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    perspective: 2000px;
+  }
+  
+  .box {
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    background: none;
+    border-radius: 10px;
+    left: calc(50% 175px);
+    top: calc(50% - 250px);
+    transform-style: preserve-3d;
+    /* transform: rotateY(-135deg); */
+  }
+  
+  .box div {
+    width: 350px;
+    height: 500px;
+    border-radius: 5px;
+
+    position: absolute;
+    background-image: radial-gradient(#111111, #000);
+    box-shadow: 0px 0px 5px #ffffff, 0px 0px 30px #ffffff,
+      inset 0px 0px 5px #dddddd, inset 0px 0px 30px #dddddd;
+    border: 3px solid #ffffff;
+  }
+  
+  .box div:nth-child(5) {
+    height: 350px;
+    box-shadow: 0px 0px 10px #ffffff, 0px 0px 30px #ffffff;
+  }
+  
+  .a {
+    border-radius: 5px;
+    transform: rotateY(0deg) translateZ(175px);
+  }
+  .b {
+    border-radius: 5px;
+    transform: rotateY(90deg) translateZ(175px);
+  }
+  .c {
+    border-radius: 5px;
+    transform: rotateY(180deg) translateZ(175px);
+  }
+  .d {
+    border-radius: 5px;
+    transform: rotateY(270deg) translateZ(175px);
+  }
+  .e {
+    border-radius: 5px;
+    transform: rotateX(-90deg) translateZ(325px);
+  }
+  
+  .a label {
+    position: relative;
+    width: 200px;
+    left: -70px;
+    top: 130px;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    margin: 20px 0px;
+    text-align: center;
+    display: block;
+    background-image: linear-gradient(45deg, #ddd, #444);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #ffffff, 0px 0px 30px #ffffff;
+    cursor: pointer;
+  }
+  
+  #sup, #btn{
+    background-image: linear-gradient(45deg, #444, #ddd);
+    color: white;
+    cursor: pointer;
+  }
+  
+  .title{
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0px 0px 20px #dddddd;
+    position: absolute;
+  }
+  
+  .frm input ,button{
+    color: var(--w);
+    position: relative;
+    width: calc(100% - 80px);
+    left: -40px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    top: 60px;
+    background: none;
+    outline: none;
+    border: .1px solid var(--black-color);
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px #dddddd, 0px 0px 10px #dddddd;
+    margin: 20px 0px;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: 200;
+  }
+  .btn{
+    position: relative;
+    left: -48px;
+    top: 60px;
+    width: 60%;
+    box-shadow: 0px 0px 1px #dddddd, 0px 0px 10px #dddddd;
+  }
+  #btm{
+    position: absolute;
+    bottom: 20px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  #chk1:checked ~ .box{transform: rotateY(-180deg);}
+  #chk2:checked ~ .box{transform: rotateY(-90deg);}
+  .index{
+    color: var(--w);
+    text-decoration: none;
+  }

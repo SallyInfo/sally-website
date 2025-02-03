@@ -1,0 +1,393 @@
+.rating .fa-solid {
+  color: black;
+}
+.product-card {
+  width: 300px;
+  height: 500px;
+  background: #fff;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.product-img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+.card-contact {
+  padding: 0.7em;
+}
+.rating .fa-solid {
+  color: #ffbe0a;
+}
+
+.riddon {
+  position: absolute;
+  top: 1em;
+  left: 0;
+  background: #292929;
+  color: #fff;
+  padding: 0.5em 1em 0.5em 0.8em;
+  border-radius: 5px;
+}
+.card-3 .riddon {
+  border-bottom-right-radius: 2em;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+/* /////////////////////////////////// */
+.title-main {
+  margin-top: 120px;
+}
+
+.card-body {
+  padding: 15px 20px 15px;
+}
+.card-body .card-color .circles-options {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.circles-options .colors {
+  padding: 6px;
+  position: relative;
+  top: 13px;
+  left: 6px;
+  display: flex;
+  gap: 5px;
+  transform: translateY(-50%);
+}
+.colors div {
+  width: 20px;
+  height: 20px;
+  background-color: var(--bg);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+}
+.card-text {
+  font-size: 18px;
+  color: #333;
+}
+
+.fa-star,
+.fa-star-half-alt {
+  color: gold;
+}
+
+#riddon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+/* ///////////////////////////// */
+
+.offer {
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210903/pngtree-mens-clothing-store-sportswear-shopping-photography-map-with-pictures-image_796890.jpg);
+  background-attachment: fixed;
+  background-position: top;
+  height: 300px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+}
+/* ///////////////////////////////// */
+
+.cards {
+  padding: 1em;
+  max-width: 1100px;
+  margin: 0 auto;
+  min-height: 100vh;
+  /* align-items: center; */
+}
+.cards * {
+  box-sizing: border-box;
+}
+.card {
+  width: 17em;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  margin: 2em;
+  /* align-items: center; */
+}
+.card img {
+  width: 12em;
+  position: absolute;
+  top: 4em;
+  left: 8em;
+  filter: drop-shadow(0px 10px 25px rgba(0, 0, 0, 0.5));
+  gap: 20px;
+}
+.card img:hover {
+  width: 13em;
+  transition: 0.3s ease-out;
+  top: 2em;
+  left: 8em;
+}
+.contat {
+  padding: 1em;
+}
+.card h2 {
+  color: #fff;
+  margin: 0 0 0 0.8em;
+}
+.danner {
+  height: 15em;
+  background: linear-gradient(90deg, #8d8d8d 0%, #000000 100%);
+  padding-top: 3em;
+  border-radius: 10px 10px 50% 50%;
+}
+.danner h2 {
+  text-align: end;
+  font-weight: 700;
+  font-size: 2em;
+}
+.sizes .size {
+  display: inline-block;
+  margin: 0 0.5em;
+  cursor: pointer;
+  font-weight: 700;
+}
+.size:hover {
+  color: #ccc;
+}
+#color {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+.active {
+  color: #ccc;
+}
+
+.details small {
+  display: block;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-size: 0.8em;
+}
+.cart {
+  background: none;
+  padding: 1em 1.1em;
+  justify-content: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 2em;
+  color: #fff;
+  border: none;
+  margin: 0 auto;
+  font-weight: 700;
+  cursor: pointer;
+}
+.riddon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+  color: #000000;
+  padding: 0.5em 1em 0.5em 0.8em;
+  border-radius: 5px;
+  box-shadow: 1px 4px 1em #ccc;
+}
+.riddon {
+  border-bottom-right-radius: 2em;
+}
+.pop {
+  transform: translateZ(20px);
+}
+
+.card:nth-child(2) .danner {
+  background: linear-gradient(90deg, #8d8d8d 0%, #000000 100%);
+}
+.card:nth-child(2) img:hover {
+  width: 13em;
+  top: 2em;
+  left: 8.5em;
+}
+.card:nth-child(2) img {
+  top: 4em;
+}
+
+.card:nth-child(3) .danner {
+  background: linear-gradient(90deg, #8d8d8d 0%, #000000 100%);
+}
+.card:nth-child(3) img:hover {
+  width: 13.5em;
+  top: 2em;
+  left: 9em;
+}
+.card:nth-child(3) img {
+  top: 2em;
+}
+
+
+.card:nth-child(4) .danner {
+  background: linear-gradient(90deg, #8d8d8d 0%, #000000 100%);
+}
+.card:nth-child(4) img:hover {
+  width: 13.5em;
+  top: 3em;
+  left: 8.5em;
+}
+.card:nth-child(4) img {
+  top: 5em;
+}
+
+.card:nth-child(5) .danner {
+  background: linear-gradient(90deg, #8d8d8d 0%, #000000 100%);
+}
+.card:nth-child(5) img:hover {
+  width: 13.5em;
+  top: 1em;
+  left: 9em;
+}
+.card:nth-child(5) img {
+  top: 2em;
+}
+
+.card:nth-child(6) .danner{
+  background: linear-gradient(90deg, #8d8d8d 0%, #000000 100%);
+}
+.card:nth-child(6) img:hover {
+  width: 13.5em;
+  top: 2em;
+  left: 9em;
+}
+.card:nth-child(6) img {
+  top: 4em;
+}
+
+.card:nth-child(7) .danner {
+  background: linear-gradient(90deg, #8d8d8d 0%, #000000 100%);
+}
+.card:nth-child(7) img {
+  width: 11em;
+  top: 2em;
+  left: 8em;
+}
+.card:nth-child(7) img:hover {
+  width: 12em;
+  top: 2em;
+  left: 9.5em;
+}
+.card:nth-child(7) img {
+  top: 3em;
+}
+
+.card:nth-child(8) .danner {
+  background: linear-gradient(90deg, #8d8d8d 0%, #000000 100%);
+}
+.card:nth-child(8) img {
+  width: 11em;
+  top: 2em;
+  left: 8em;
+}
+.card:nth-child(8) img:hover {
+  width: 13em;
+  top: 2em;
+  left: 9.5em;
+}
+.card:nth-child(8) img {
+  top: 3em;
+}
+
+.card:nth-child(9) .danner {
+  background: linear-gradient(90deg, #8d8d8d 0%, #000000 100%);
+}
+.card:nth-child(9) img {
+  width: 11em;
+  top: 2em;
+  left: 8em;
+}
+.card:nth-child(9) img:hover {
+  width: 12em;
+  top: 2em;
+  left: 9.5em;
+}
+.card:nth-child(9) img {
+  top: 3em;
+}
+
+.card:nth-child(10) .danner {
+  background: linear-gradient(90deg, #8d8d8d 0%, #000000 100%);
+}
+.card:nth-child(10) img {
+  width: 15em;
+  top: 2em;
+  left: 8em;
+}
+.card:nth-child(10) img:hover {
+  width: 16em;
+  top: 1px;
+  left: 8.5em;
+}
+.card:nth-child(10) img {
+  top: 1em;
+}
+
+.card:nth-child(11) .danner {
+  background: linear-gradient(90deg, #8d8d8d 0%, #000000 100%);
+}
+.card:nth-child(11) img {
+  width: 18em;
+  top: 2em;
+  left: 7em;
+}
+.card:nth-child(11) img:hover {
+  width: 19em;
+  top: 2em;
+  left: 8em;
+}
+.card:nth-child(11) img {
+  top: 3em;
+}
+
+#btn {
+  /* position: relative;
+    top: 0;
+    left: 0; */
+  width: 80%;
+}
+.pop .fa-solid:hover{
+  color: var(--w);
+}
+
+.ordering{
+  position: absolute;
+  top: 460px;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  background: #bdbdbd;
+  box-shadow: 5px 4px 1em #ccc;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.ordering i{
+  font-size: 18px;
+}
+/* ////////////////////////////// */
